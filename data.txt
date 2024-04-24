@@ -1,0 +1,40 @@
+Поля и их описания:
+Поле: id,
+Описание: int
+
+Поле: plot,
+Описание: varchar(1024)
+
+Поле: genres,
+Описание: set('Drama','Comedy','Thriller','Music','Action','Adventure','Family','Romance','Documentary','Mystery','Sci-Fi','Biography','Horror','Fantasy','Animation','Crime','Sport','War','Short','History','News','Western','Musical')
+
+Поле: runtime,
+Описание: bigint
+
+Поле: cast,
+Описание: json
+
+Поле: poster,
+Описание: varchar(1024)
+
+Поле: title,
+Описание: varchar(1024)
+
+Поле: languages,
+Описание: json
+
+Поле: directors,
+Описание: json
+
+Поле: awards.text,
+Описание: varchar(1024)
+
+Поле: year,
+Описание: bigint
+
+Поле: imdb.rating,
+Описание: double
+
+Поле: type,
+Описание: enum('movie','series')
+
